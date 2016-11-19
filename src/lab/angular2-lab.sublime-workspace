@@ -1,0 +1,353 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"ROUTER_PROVIDERS"
+			],
+			[
+				"bi",
+				"billingMode\tgetter"
+			],
+			[
+				"id",
+				"enterpriseId\tproperty"
+			],
+			[
+				"nav",
+				"navigateByUrl\tmethod"
+			],
+			[
+				"attrdis",
+				"attrDisplayValue\tproperty"
+			],
+			[
+				"atr",
+				"attrDisplayName\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 73.0,
+		"last_filter": "closeall",
+		"selected_items":
+		[
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 490.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/projects/angular2-lab/src/lab"
+	],
+	"file_history":
+	[
+		"/C/projects/temp_lab/ng-lab/package.json",
+		"/C/projects/temp_lab/ng-lab/src/app/app.module.ts",
+		"/C/projects/temp_lab/ng-lab/src/main.ts",
+		"/C/projects/temp_lab/ng-lab/src/app/app.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/template/order-mng.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/model/order-item.ts",
+		"/C/projects/foxcloud/front-src/frontend/start_frontend.bat",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/component/order-mng.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/model/order-mng-param.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/architecture/core/config/restapi.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/model/department-item.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/component/ent-est-mng.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/template/ent-est-mng.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/architecture/components/spinner/template/spinner.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/@types/jquery/index.d.ts",
+		"/C/projects/agilerv2/node_modules/.gitignore",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/component/ent-est-check.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/template/ent-est-check.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/component/ent-est-cre.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/service/ent-est-cre.service.ts",
+		"/C/projects/agilerv2/package.json",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/architecture/core/service/item-loader.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/user-center/attest-mng/component/attest-source-cre.component.ts",
+		"/C/aigler-install/agiler-src/src/package.json",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/model/order-detail.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/template/order-mng-detail.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/op-center/order-mng/component/order-mng-detail.component.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/package.json",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/@angular/forms/src/directives.js",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/angular2/ts/src/common/directives/ng_for.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/angular2/ts/src/common/directives/core_directives.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/angular2/common.d.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/angular2/ts/src/common/common_directives.ts",
+		"/C/projects/foxcloud/edit.price.js",
+		"/C/Users/caozon/.node-gyp/5.9.0/include/node/node.h",
+		"/C/projects/agiler/agiler-git/agilerv2/package.json",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-est-cre-resourcequota.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-est-item.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/template/ent-est-cre.component.html",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-est-basic-info.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/index.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-est.ts",
+		"/C/projects/agiler/agiler-git/agilerv2/node_modules/bson/package.json",
+		"/C/projects/agiler/agiler-git/agilerv2/node_modules/bson/build/bson.vcxproj",
+		"/C/projects/agiler/agiler-git/agilerv2/node_modules/bson/build/binding.sln",
+		"/C/projects/agiler/agiler-git/agilerv2/node_modules/bson/node_modules/nan/nan.h",
+		"/C/Temp/temp_module/node_modules/bson/package.json",
+		"/C/projects/foxcloud/front-src/frontend/backend/node_modules/bootstrap-datepicker/tests/suites/options.js",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-est-resourcequota.ts",
+		"/C/projects/foxcloud/.hgignore",
+		"/C/projects/foxcloud/front-src/frontend/git_pull.bat",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-admin-mng/component/ent-admin-mng.component.ts",
+		"/D/Downloads/Dev/Sublime Text Build 3126 x64.zip.license.txt",
+		"/D/Downloads/Dev/en_visual_studio_enterprise_2015_with_update_3_x86_x64_dvd_8923288.iso.license.txt",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/ent-prod-item.ts",
+		"/C/projects/foxcloud/front-src/frontend/backend/src/module/ent-mng/ent-est-mng/model/resourcequota.ts",
+		"/C/aigler-install/agiler-src/src/node_modules/bindings/bindings.js",
+		"/C/aigler-install/agiler-src/src/node_modules/bindings/package.json",
+		"/C/aigler-install/agiler-src/src/start.js",
+		"/C/aigler-install/agiler-src/src/node_modules/bson/package.json",
+		"/C/aigler-install/agiler-src/src/node_modules/bson/binding.gyp",
+		"/C/aigler-install/agiler-src/src/node_modules/restmapping/restmapping.js"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\projects\\foxcloud\\front-src\\frontend\\backend\\src\\architecture",
+			"C:\\projects\\foxcloud\\front-src\\frontend\\backend\\node_modules",
+			"C:\\projects\\foxcloud\\front-src\\frontend\\backend\\src",
+			"C:\\projects\\foxcloud\\front-src\\frontend\\backend"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"serviceTypeName",
+			"_renewHanlder",
+			"_productTypeLoader",
+			"itemList",
+			"validateEntModify",
+			"validateCertModify",
+			"validateQuotaModify",
+			"validateEntModify",
+			"validateQuotaModify",
+			"配额",
+			"loadEntCertInfo",
+			"id",
+			"billingInfo",
+			"isLoading",
+			"search",
+			"loadDepartment",
+			"_adminLoader",
+			"resourceQuotaSvg",
+			"loadResourceQuotaSvg",
+			"resourceQuotaSvg",
+			"navigate",
+			"管理员",
+			"))",
+			"navigate",
+			"vcpuQuota",
+			"storageQuota",
+			"floatIpQuota",
+			"enterpriseId",
+			"配额",
+			"showError",
+			"resourceQuotaSvg",
+			"ent",
+			"\\",
+			"loadPlatform",
+			"loadEntProdItems",
+			"showMsg",
+			"id",
+			"integer",
+			"entEst.ResourceQuota",
+			"validateQuotaModify",
+			"修改配额",
+			"CORE_DIRECTIVES",
+			"subRegions",
+			"loadArray",
+			"_subregionLoader",
+			"item",
+			"orderInstanceItems",
+			"integer",
+			"navigate",
+			"entEstResource.FirstItem",
+			"entEst.ResourceQuota",
+			"EntEstCreResourceQuota",
+			"{\n\t\t\t\t\t\"name\":\"登录账户属性名称\"\n\t\t\t\t\t,\"value\":this.entEst.BasicInfo.accountAttribute\n\t\t\t\t\t,\"op\":\"*\"\n\t\t\t\t}",
+			"date-picker",
+			"checkEnterpriseInfo",
+			"navigateByUrl",
+			"composeUrlWithId",
+			",\n\t\t{\n\t\t\t\"name\":\"认证方式\"\n\t\t\t,\"value\":this.entEst.BasicInfo.certMethod\n\t\t\t,\"op\":\"*\"\n\t\t}",
+			"entEst",
+			"upLimit",
+			"loadResourceQuotas",
+			"企业管理"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angular2-lab.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"restapi",
+				"src\\architecture\\core\\config\\restapi.ts"
+			],
+			[
+				"ordermngcomponenthtml",
+				"src\\module\\op-center\\order-mng\\template\\order-mng.component.html"
+			],
+			[
+				"",
+				"src\\architecture\\core\\config\\restapi.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\projects\\angular2-lab\\angular2-lab\\src\\lab\\project.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 478.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

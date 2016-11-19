@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, element, by } from 'protractor/globals';
 
-export class LabPage {
+export class FoxcloudPortalPage {
   navigateTo() {
     return browser.get('/');
   }

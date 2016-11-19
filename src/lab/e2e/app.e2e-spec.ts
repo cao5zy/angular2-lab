@@ -1,10 +1,10 @@
-import { LabPage } from './app.po';
+import { FoxcloudPortalPage } from './app.po';
 
-describe('lab App', function() {
-  let page: LabPage;
+describe('foxcloud-portal App', function() {
+  let page: FoxcloudPortalPage;
 
   beforeEach(() => {
-    page = new LabPage();
+    page = new FoxcloudPortalPage();
   });
 
   it('should display message saying app works', () => {
