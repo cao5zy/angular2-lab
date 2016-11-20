@@ -10,7 +10,6 @@ import { NoticeComponent } from './dialog/component/notice.component';
 import { ConfirmComponent } from './dialog/component/confirm.component';
 import { PopupComponent } from './dialog/component/popup.component';
 
-import { MyDatePickerModule } from './date-picker/my-date-picker.module';
 
 @NgModule({
     imports: [
@@ -32,8 +31,6 @@ import { MyDatePickerModule } from './date-picker/my-date-picker.module';
         PaginationComponent,
         NoticeComponent,
         ConfirmComponent,
-        PopupComponent,
-        MyDatePickerModule
-    ]
+        PopupComponent    ]
 })
 export class CommonComponentModule { }
