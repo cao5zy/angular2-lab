@@ -9,7 +9,6 @@ import { PaginationComponent } from './pagination/component/pagination.component
 import { NoticeComponent } from './dialog/component/notice.component';
 import { ConfirmComponent } from './dialog/component/confirm.component';
 import { PopupComponent } from './dialog/component/popup.component';
-import { CountBarComponent} from './countBar/component/count-bar.component'
 
 import { MyDatePickerModule } from './date-picker/my-date-picker.module';
 
@@ -25,7 +24,6 @@ import { MyDatePickerModule } from './date-picker/my-date-picker.module';
         NoticeComponent,
         ConfirmComponent,
         PopupComponent,
-        CountBarComponent
     ],
     exports: [
         CommonModule,
@@ -35,7 +33,6 @@ import { MyDatePickerModule } from './date-picker/my-date-picker.module';
         NoticeComponent,
         ConfirmComponent,
         PopupComponent,
-        CountBarComponent,
         MyDatePickerModule
     ]
 })
