@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, } from '@angular/core';
 import { Router } from '@angular/router';
-import { DicLoader, ItemLoader, RestApi, RestApiCfg, LayoutService, NoticeComponent, PopupComponent, ConfirmComponent, SystemDictionaryService, SystemDictionary } from '../../../../architecture';
+import { DicLoader, ItemLoader, RestApi, RestApiCfg, LayoutService, SystemDictionaryService, SystemDictionary } from '../../../../architecture';
 import { CertMethod, Status, EntEstItem, EntEst
   , EntEstCreResourceQuota} from '../model';
 
