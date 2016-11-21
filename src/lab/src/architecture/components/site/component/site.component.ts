@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { LayoutService } from '../../../core/service/layout.service';
 
 @Component({
   selector: 'fc-root',
@@ -11,10 +10,8 @@ export class SiteComponent implements OnInit{
   left_content_script: string;
   
   constructor (
-    private layoutService: LayoutService
   ) { }
   
   ngOnInit() {
-    this.layoutService.hide();
   }
 }
