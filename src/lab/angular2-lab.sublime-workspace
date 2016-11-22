@@ -41,6 +41,15 @@
 			}
 		},
 		{
+			"file": "src/architecture/components/site/component/site.component.ts",
+			"settings":
+			{
+				"buffer_size": 353,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "src/module/ent-mng/ent-est-mng/component/index.ts",
 			"settings":
 			{
@@ -62,7 +71,7 @@
 			"file": "src/module/ent-mng/ent-est-mng/template/ent-est-mng.component.html",
 			"settings":
 			{
-				"buffer_size": 2575,
+				"buffer_size": 23,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -71,16 +80,8 @@
 			"file": "src/module/ent-mng/ent-est-mng/component/ent-est-mng.component.ts",
 			"settings":
 			{
-				"buffer_size": 3749,
+				"buffer_size": 726,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/projects/agilerv2/node_modules/app_server_setting.js",
-			"settings":
-			{
-				"buffer_size": 1726,
 				"line_ending": "Windows"
 			}
 		},
@@ -97,7 +98,7 @@
 			"file": "src/app.module.ts",
 			"settings":
 			{
-				"buffer_size": 648,
+				"buffer_size": 568,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -115,7 +116,7 @@
 			"file": "src/architecture/components/common.module.ts",
 			"settings":
 			{
-				"buffer_size": 801,
+				"buffer_size": 434,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,7 +125,7 @@
 			"file": "src/architecture/index.ts",
 			"settings":
 			{
-				"buffer_size": 665,
+				"buffer_size": 43,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
@@ -135,6 +136,14 @@
 			{
 				"buffer_size": 95,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/architecture/components/site/style/site.component.css",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -186,19 +195,22 @@
 		"/C/projects/angular2-lab/src/lab",
 		"/C/projects/angular2-lab/src/lab/src",
 		"/C/projects/angular2-lab/src/lab/src/architecture",
-		"/C/projects/angular2-lab/src/lab/src/architecture/assets",
+		"/C/projects/angular2-lab/src/lab/src/architecture/assets/images",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/site/component",
+		"/C/projects/angular2-lab/src/lab/src/architecture/components/site/style",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/site/template",
 		"/C/projects/angular2-lab/src/lab/src/module",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/component",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/model",
+		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/service",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/template"
 	],
 	"file_history":
 	[
+		"/C/projects/agilerv2/node_modules/app_server_setting.js",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/index.ts",
 		"/C/projects/angular2-lab/src/lab/src/architecture/index.ts",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/comp.inc.ts",
@@ -367,7 +379,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -396,11 +408,42 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "src/architecture/components/site/component/site.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "src/module/ent-mng/ent-est-mng/component/index.ts",
 					"semi_transient": false,
 					"settings":
@@ -425,11 +468,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "src/module/ent-mng/ent-est-mng/ent-est-mng.module.ts",
 					"semi_transient": false,
 					"settings":
@@ -456,24 +499,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "src/module/ent-mng/ent-est-mng/template/ent-est-mng.component.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2575,
+						"buffer_size": 23,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2567,
-								2567
+								23,
+								23
 							]
 						],
 						"settings":
@@ -482,27 +525,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 780.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "src/module/ent-mng/ent-est-mng/component/ent-est-mng.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3749,
+						"buffer_size": 726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3747,
-								3747
+								724,
+								724
 							]
 						],
 						"settings":
@@ -513,40 +556,10 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1157.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/projects/agilerv2/node_modules/app_server_setting.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1726,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								935,
-								935
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -583,7 +596,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -592,15 +605,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 648,
+						"buffer_size": 568,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								551,
-								551
+								567,
+								567
 							]
 						],
 						"settings":
@@ -614,7 +627,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -649,7 +662,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -658,15 +671,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 801,
+						"buffer_size": 434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								680,
-								680
+								434,
+								434
 							]
 						],
 						"settings":
@@ -686,7 +699,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -695,15 +708,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 43,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								665,
-								665
+								43,
+								43
 							]
 						],
 						"settings":
@@ -715,7 +728,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -731,8 +744,8 @@
 						"selection":
 						[
 							[
-								95,
-								95
+								93,
+								93
 							]
 						],
 						"settings":
@@ -751,7 +764,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/architecture/components/site/style/site.component.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
