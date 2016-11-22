@@ -1,7 +1,5 @@
 import { Component, OnInit, ViewChild, } from '@angular/core';
 import { Router } from '@angular/router';
-import { CertMethod, Status, EntEstItem, EntEst
-  , EntEstCreResourceQuota} from '../model';
 
 import * as _ from 'underscore';
 
@@ -17,7 +15,6 @@ export class EntEstMngComponent implements OnInit {
   private currentPage: number = 0;
   private selectAllField: boolean = false;
   private criteria: string = "";
-  private entEst: EntEst = new EntEst();
 
   constructor(
     private router: Router
