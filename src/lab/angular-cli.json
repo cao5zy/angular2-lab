@@ -15,18 +15,17 @@
       "prefix": "fc",
       "mobile": false,
       "styles": [
-        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "./architecture/assets/style/styles.less"
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js"
       ],
       "environments": {
-        "source": "./architecture/environments/environment.ts",
-        "dev": "./architecture/environments/environment.ts",
-        "prod": "./architecture/environments/environment.prod.ts",
-        "test": "./architecture/environments/environment.test.ts"
+        "source": "./environments/environment.ts",
+        "dev": "./environments/environment.ts",
+        "prod": "./environments/environment.prod.ts",
+        "test": "./environments/environment.test.ts"
       }
     }
   ],
