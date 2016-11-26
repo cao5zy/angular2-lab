@@ -5,14 +5,14 @@ import { FormsModule } from '@angular/forms';
 import {RootComponent} from './root.component';
 
 
-import {EntMngModule} from './module/ent-mng/ent-mng.module';
+import {LabModule1Module} from './modules/lab-module1/lab-module1.module';
 
 import {routing} from './app.routing';
 
 @NgModule({
     imports: [
         BrowserModule,
-        EntMngModule,
+        LabModule1Module,
         FormsModule,
         routing
     ],
