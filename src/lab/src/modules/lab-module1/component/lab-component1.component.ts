@@ -1,6 +1,6 @@
 ﻿import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { BootstrapPopoverComponent } from './';
+import { BootstrapPopoverDirective } from './';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { BootstrapPopoverComponent } from './';
 })
 export class LabComponent1Component implements OnInit{
 	@ViewChild("popOver1")
-	private _popover1: BootstrapPopoverComponent;
+	private _popover1: BootstrapPopoverDirective;
 
 	ngOnInit(){
 

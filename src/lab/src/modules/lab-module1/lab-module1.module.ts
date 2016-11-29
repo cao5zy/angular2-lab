@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 // pf_conn_mng
 import { LabComponent1Component
-    , BootstrapPopoverComponent } from './component';
+    , BootstrapPopoverDirective } from './component';
 import { LabModule1Routing } from './lab-module1.routing';
 
 @NgModule({
@@ -11,7 +11,7 @@ import { LabModule1Routing } from './lab-module1.routing';
     ],
     declarations: [
     	LabComponent1Component
-        , BootstrapPopoverComponent
+        , BootstrapPopoverDirective
     ],
     exports: [
         LabComponent1Component
