@@ -32,70 +32,16 @@
 	"buffers":
 	[
 		{
-			"file": "src/app.module.ts",
+			"file": "src/modules/lab-module1/component/lab-component1.component.ts",
 			"settings":
 			{
-				"buffer_size": 534,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/app.routing.ts",
-			"settings":
-			{
-				"buffer_size": 326,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/main.ts",
-			"settings":
-			{
-				"buffer_size": 357,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import { Component, OnInit } from '@angular/core';\nimport { Router } from '@angular/router';\n\n\n\n@Component({\n\tselector: 'lab-component1',\n\ttemplateUrl: '../template/lab-component1.template.html',\n\tstyleUrls: [],\n\tproviders: []\t\n})\nexport class LabComponent1 implements OnInit{\n\tngOnInit(){\n\n\t}\n}",
-			"file": "src/modules/lab-module1/lab-component/component/lab-component1.component.ts",
-			"file_size": 313,
-			"file_write_time": 131245166210371195,
-			"settings":
-			{
-				"buffer_size": 295,
+				"buffer_size": 306,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "import { ModuleWithProviders } from '@angular/core';\nimport { RouterModule } from '@angular/router';\n\nimport { LabComponent1 } from './component/lab-component1.component';\nexport const LabComponentRouting: ModuleWithProviders = RouterModule.forChild([\n    {\n        path: 'lab-module1/lab-component1',\n        component: LabComponent1\n    }\n]);",
-			"file": "src/modules/lab-module1/lab-component/lab-component.routing.ts",
-			"file_size": 350,
-			"file_write_time": 131245166852874934,
-			"settings":
-			{
-				"buffer_size": 344,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { FormsModule } from '@angular/forms';\n\n\n// ent-est-mng\nimport { LabComponent1} from './component/lab-component1.component';\n\n// Routing\nimport { LabComponentRouting } from './lab-component.routing';\n@NgModule({\n    imports: [\n        LabComponentRouting\n    ],\n    declarations: [\n        LabComponent1\n    ],\n    exports: [LabComponent1],\n    providers: []\n\n})\nexport class LabComponentModule { }",
-			"file": "src/modules/lab-module1/lab-component/lab-component.module.ts",
-			"file_size": 493,
-			"file_write_time": 131242531766119212,
-			"settings":
-			{
-				"buffer_size": 495,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<div>\n这是一个测试component\n</div>",
-			"file": "src/modules/lab-module1/lab-component/template/lab-component1.template.html",
-			"file_size": 45,
-			"file_write_time": 131245165896909195,
+			"file": "src/modules/lab-module1/template/lab-component1.template.html",
 			"settings":
 			{
 				"buffer_size": 28,
@@ -104,13 +50,29 @@
 			}
 		},
 		{
-			"contents": "import { NgModule } from '@angular/core';\n\n// pf_conn_mng\nimport { LabComponentModule } from './lab-component/lab-component.module';\n\n@NgModule({\n    imports: [\n        LabComponentModule\n    ],\n    declarations: [],\n    exports: [\n        LabComponentModule\n    ],\n    providers: []\n})\n\nexport class LabModule1 { }",
 			"file": "src/modules/lab-module1/lab-module1.module.ts",
-			"file_size": 317,
-			"file_write_time": 131245163641823195,
 			"settings":
 			{
-				"buffer_size": 315,
+				"buffer_size": 420,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/modules/lab-module1/lab-module1.routing.ts",
+			"settings":
+			{
+				"buffer_size": 360,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 546,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -165,11 +127,21 @@
 		"/C/projects/angular2-lab/src/lab/src/environments",
 		"/C/projects/angular2-lab/src/lab/src/modules",
 		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/component",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/model",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/service",
 		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/style",
 		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/template"
 	],
 	"file_history":
 	[
+		"/C/projects/angular2-lab/src/lab/src/app.module.ts",
+		"/C/projects/angular2-lab/src/lab/src/app.routing.ts",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/lab-component/component/lab-component1.component.ts",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/lab-component/lab-component.routing.ts",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/lab-component/lab-component.module.ts",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/lab-component/template/lab-component1.template.html",
+		"/C/projects/angular2-lab/src/lab/src/modules/lab-module1/lab-module1.module.ts",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/component/.gitkeep",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/service/.gitkeep",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/style/.gitkeep",
@@ -185,7 +157,6 @@
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/component/index.ts",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/ent-est-mng.module.ts",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/component/ent-est-mng.component.ts",
-		"/C/projects/angular2-lab/src/lab/src/app.module.ts",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/site/template/site.component.html",
 		"/C/projects/angular2-lab/src/lab/src/root.component.html",
 		"/C/projects/angular2-lab/src/lab/src/root.component.ts",
@@ -193,7 +164,6 @@
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/model/.gitkeep",
 		"/C/projects/angular2-lab/src/lab/src/architecture/index.ts",
 		"/C/projects/angular2-lab/src/lab/src/architecture/components/common.module.ts",
-		"/C/projects/angular2-lab/src/lab/src/app.routing.ts",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/ent-est-mng.routing.ts",
 		"/C/projects/angular2-lab/src/lab/src/module/ent-mng/ent-est-mng/template/ent-est-mng.component.html",
 		"/C/projects/agilerv2/node_modules/app_server_setting.js",
@@ -367,24 +337,81 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/app.module.ts",
+					"file": "src/modules/lab-module1/component/lab-component1.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 534,
+						"buffer_size": 306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								534,
-								534
+								191,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/modules/lab-module1/template/lab-component1.template.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/modules/lab-module1/lab-module1.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
 							]
 						],
 						"settings":
@@ -406,20 +433,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/app.routing.ts",
+					"buffer": 3,
+					"file": "src/modules/lab-module1/lab-module1.routing.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 326,
+						"buffer_size": 360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								213,
-								213
+								194,
+								211
 							]
 						],
 						"settings":
@@ -435,114 +462,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/main.ts",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/modules/lab-module1/lab-component/component/lab-component1.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 295,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								244,
-								257
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "src/modules/lab-module1/lab-component/lab-component.routing.ts",
+					"file": "src/app.module.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 344,
+						"buffer_size": 546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								299
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/modules/lab-module1/lab-component/lab-component.module.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 495,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								491
+								546,
+								546
 							]
 						],
 						"settings":
@@ -555,63 +488,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/modules/lab-module1/lab-component/template/lab-component1.template.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 28,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/modules/lab-module1/lab-module1.module.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -692,7 +568,7 @@
 		[
 			[
 				"",
-				"C:\\projects\\foxcloud\\front-src\\front-project.sublime-project"
+				"C:\\projects\\foxcloud\\front-src\\back-project.sublime-project"
 			]
 		],
 		"width": 475.0
