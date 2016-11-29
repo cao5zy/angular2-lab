@@ -11,3 +11,13 @@
 <div id="content2" style="display: none">
 {{content2}}
 </div>
+<p>下面是通过iterator来创建popover和要显示的内容</p>
+
+
+<table>
+<tr *ngFor="let num of nums;let i=index">
+	<td><button lab-bootstrap-popover id="i-{{i}}" contentid="5555">button-{{i}}</button>
+	<div id="content-{{i}}" style="display: none">content-{{i}}</div>
+	</td>
+</tr>
+</table>

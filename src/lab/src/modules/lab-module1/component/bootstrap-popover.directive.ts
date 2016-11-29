@@ -14,7 +14,7 @@
 4. 定义content区域，这里可以动态绑定数据。另外，要添加display:none，将这个区域隐藏起来。
 */
 
-import { Directive, ElementRef, OnInit } from '@angular/core';
+import { Directive, ElementRef, OnInit, AfterContentInit, AfterViewChecked } from '@angular/core';
 
 @Directive({
 	selector: '[lab-bootstrap-popover]'
@@ -23,36 +23,49 @@ import { Directive, ElementRef, OnInit } from '@angular/core';
 
 	}
 })
-export class BootstrapPopoverDirective implements OnInit {
+export class BootstrapPopoverDirective implements AfterViewChecked {
 
 	//绑定内容的div的id
-	private _contentid:string = null;
-
-	private _id:string = null;
 
 	private content:string = "";
 
+	private _element:any = null;
+
 	constructor(el:ElementRef)
 	{
-		this._id = $(el.nativeElement).attr('id');
-		if(!this._id)
-			throw "请设置id";
+		this._element = el.nativeElement;
 
-		this._contentid = $(el.nativeElement).attr('contentid') as string;
-		if(!this._contentid)
-			throw "请设置contentid";
+	
 
 
 	}
 
-	ngOnInit(){
-		console.log('ngOnInit ', this._id);
-		$('#' + this._id).popover({
+	get hostId():string{
+		return $(this._element).attr('id') as string;
+	}
+
+	get contentId():string{
+		return $(this._element).attr('contentid') as string;
+	}
+
+	// ngOnInit(){
+	// 	console.log('ngOnInit ', this.hostId);
+	// }
+
+	// ngAfterContentInit(){
+	// 	console.log('ngAfterContentInit ', this.hostId);
+
+	// }
+
+	ngAfterViewChecked(){
+		console.log('ngAfterViewChecked ', this.hostId);
+		$('#' + this.hostId).popover({
 			html:true
 			,content:():string=>{
-				return $('#' + this._contentid).html();
+				return $('#' + this.contentId).html();
 			}
 		});
+
 	}
 
 }

@@ -12,6 +12,7 @@ import { BootstrapPopoverDirective } from './';
 export class LabComponent1Component implements OnInit{
 	private content1: string = "none1";
 	private content2: string = "none2";
+	private nums:Array<number> = [1,2,3];
 
 	ngOnInit(){
 
