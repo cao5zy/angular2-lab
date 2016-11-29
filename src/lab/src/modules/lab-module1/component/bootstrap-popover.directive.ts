@@ -1,4 +1,4 @@
-﻿import { Directive, ElementRef, OnInit, Input, HostBinding, AfterViewInit, AfterViewChecked } from '@angular/core';
+﻿import { Directive, ElementRef, OnInit } from '@angular/core';
 
 @Directive({
 	selector: '[lab-bootstrap-popover]'
@@ -7,9 +7,7 @@
 
 	}
 })
-export class BootstrapPopoverDirective implements OnInit, AfterViewInit, AfterViewChecked {
-	@Input('uid')
-	private _uid:string = "";
+export class BootstrapPopoverDirective implements OnInit {
 
 	//绑定内容的div的id
 	private _contentid:string = null;
@@ -27,35 +25,23 @@ export class BootstrapPopoverDirective implements OnInit, AfterViewInit, AfterVi
 		this._contentid = $(el.nativeElement).attr('contentid') as string;
 		if(!this._contentid)
 			throw "请设置contentid";
+
+		this.hideContent();
+
+	}
+
+	hideContent(){
+		$('#' + this._contentid).hide();
 	}
 
 	ngOnInit(){
-		// $('#popover1').popover({
-		// 	html:true
-		// 	,content:():string=>{
-		// 		return this.content;
-		// 	}
-		// });
-		console.log('lab-bootstrap-popover init', this._uid, this);
-		console.log('content id is:', this._contentid);
-	}
-
-	ngAfterViewInit(){
-		
-		console.log('lab-bootstrap-popover after view init', this._uid, this);
-		console.log('content id is:', this._contentid);
-	}
-
-	ngAfterViewChecked(){
-		console.log('lab-bootstrap-popover after view checked', this._uid, this);
-		console.log('content id is:', this._contentid);
-		
-	}
-
-	//当完成数据绑定时，再调用这个方法
-	loadPopover(cont:string = ""){
-		this.content = cont;
-		
+		console.log('ngOnInit ', this._id);
+		$('#' + this._id).popover({
+			html:true
+			,content:():string=>{
+				return $('#' + this._contentid).html();
+			}
+		});
 	}
 
 }

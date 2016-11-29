@@ -13,15 +13,19 @@ export class LabComponent1Component implements OnInit{
 	@ViewChild("popOver1")
 	private _popover1: BootstrapPopoverDirective;
 
+	private content: string = "none";
+
 	ngOnInit(){
 
 	}
 
 	click1(){
-		this._popover1.loadPopover('设置值1');
+		this.content = "设置值1";
 	}
 
 	click2(){
-		this._popover1.loadPopover('设置值2');
+		this.content = "设置值2";
 	}
+
+
 }
