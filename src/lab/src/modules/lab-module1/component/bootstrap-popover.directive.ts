@@ -11,12 +11,22 @@ export class BootstrapPopoverDirective implements OnInit, AfterViewInit, AfterVi
 	@Input('uid')
 	private _uid:string = "";
 
+	//绑定内容的div的id
+	private _contentid:string = null;
+
+	private _id:string = null;
+
 	private content:string = "";
 
 	constructor(el:ElementRef)
 	{
+		this._id = $(el.nativeElement).attr('id');
+		if(!this._id)
+			throw "请设置id";
 
-		console.log('lab-bootstrap-popover constructor', el);
+		this._contentid = $(el.nativeElement).attr('contentid') as string;
+		if(!this._contentid)
+			throw "请设置contentid";
 	}
 
 	ngOnInit(){
@@ -27,15 +37,18 @@ export class BootstrapPopoverDirective implements OnInit, AfterViewInit, AfterVi
 		// 	}
 		// });
 		console.log('lab-bootstrap-popover init', this._uid, this);
+		console.log('content id is:', this._contentid);
 	}
 
 	ngAfterViewInit(){
 		
 		console.log('lab-bootstrap-popover after view init', this._uid, this);
+		console.log('content id is:', this._contentid);
 	}
 
 	ngAfterViewChecked(){
 		console.log('lab-bootstrap-popover after view checked', this._uid, this);
+		console.log('content id is:', this._contentid);
 		
 	}
 
