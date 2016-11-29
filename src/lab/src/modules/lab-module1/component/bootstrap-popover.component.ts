@@ -5,6 +5,9 @@
 	,templateUrl: './../template/lab-bootstrap-popover.template.html'
 	,styleUrls: []
 })
-export class BootstrapPopoverComponent {
+export class BootstrapPopoverComponent implements OnInit {
 
+	ngOnInit(){
+		$('#popover1').popover();
+	}
 }
