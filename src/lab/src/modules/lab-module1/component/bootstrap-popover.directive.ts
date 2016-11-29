@@ -31,7 +31,8 @@ export class BootstrapPopoverDirective implements OnInit {
 	}
 
 	hideContent(){
-		$('#' + this._contentid).hide();
+		console.log('hideContent called', '#' + this._contentid);
+		$('#' + this._contentid).css({display:'none'});
 	}
 
 	ngOnInit(){

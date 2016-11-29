@@ -1,10 +1,13 @@
-﻿<div>
-这是一个测试component
+﻿
+<button lab-bootstrap-popover id="popOver1" contentid="content1">弹出框1</button>
+<button (click)="setContent1_1()">content1_1</button>
+<button (click)="setContent1_2()">content1_2</button>
+<div id="content1" style="display: none">
+{{content1}}
 </div>
-<button lab-bootstrap-popover #popOver1 id="xxxxxxx" contentid="abc">弹出框</button>
-
-<button (click)="click1()">设置值1</button>
-<button (click)="click2()">设置值2</button>
-<div id="abc">
-{{content}}
+<button lab-bootstrap-popover id="popOver2" contentid="content2">弹出框2</button>
+<button (click)="setContent2_1()">content2_1</button>
+<button (click)="setContent2_2()">content2_2</button>
+<div id="content2" style="display: none">
+{{content2}}
 </div>

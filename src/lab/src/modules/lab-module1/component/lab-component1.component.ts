@@ -1,4 +1,4 @@
-﻿import { Component, OnInit, ViewChild } from '@angular/core';
+﻿import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { BootstrapPopoverDirective } from './';
 
@@ -10,22 +10,26 @@ import { BootstrapPopoverDirective } from './';
 	providers: []	
 })
 export class LabComponent1Component implements OnInit{
-	@ViewChild("popOver1")
-	private _popover1: BootstrapPopoverDirective;
-
-	private content: string = "none";
+	private content1: string = "none1";
+	private content2: string = "none2";
 
 	ngOnInit(){
 
 	}
 
-	click1(){
-		this.content = "设置值1";
+	setContent1_1(){
+		this.content1 = "content1_1";
 	}
 
-	click2(){
-		this.content = "设置值2";
+	setContent1_2(){
+		this.content1 = "content1_2";
 	}
 
+	setContent2_1(){
+		this.content2 = "content2_1";
+	}
 
+	setContent2_2(){
+		this.content2 = "content2_2";
+	}
 }
