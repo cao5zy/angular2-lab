@@ -6,21 +6,21 @@
 	,styleUrls: []
 })
 export class BootstrapPopoverComponent implements OnInit {
+	private content:string = "";
 
 	ngOnInit(){
-	}
-
-	showPopover(){
-
-		console.log('show popover');
-		
 		$('#popover1').popover({
 			html:true
-			,content:"line1<br/>line2"
+			,content:():string=>{
+				return this.content;
+			}
 		});
-
-		$('#popover1').popover('show');
-
-
 	}
+
+	//当完成数据绑定时，再调用这个方法
+	loadPopover(cont:string = ""){
+		this.content = cont;
+		
+	}
+
 }
