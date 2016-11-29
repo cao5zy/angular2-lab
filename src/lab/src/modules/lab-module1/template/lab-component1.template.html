@@ -16,8 +16,8 @@
 
 <table>
 <tr *ngFor="let num of nums;let i=index">
-	<td><button lab-bootstrap-popover id="i-{{i}}" contentid="5555">button-{{i}}</button>
-	<div id="content-{{i}}" style="display: none">content-{{i}}</div>
+	<td><button lab-bootstrap-popover id="i-{{i}}" [attr.contentid]="contentIdgnerator(i)">button-{{i}}</button>
+	<div [attr.id]="contentIdgnerator(i)" style="display: none">content-{{i}}</div>
 	</td>
 </tr>
 </table>

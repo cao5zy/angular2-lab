@@ -33,4 +33,9 @@ export class LabComponent1Component implements OnInit{
 	setContent2_2(){
 		this.content2 = "content2_2";
 	}
+
+	contentIdgnerator(num:number):string
+	{
+		return `content-${num}`;
+	}
 }
