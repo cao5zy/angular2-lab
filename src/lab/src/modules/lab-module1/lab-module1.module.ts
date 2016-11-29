@@ -15,6 +15,7 @@ import { LabModule1Routing } from './lab-module1.routing';
     ],
     exports: [
         LabComponent1Component
+        , BootstrapPopoverDirective
     ],
     providers: []
 })
