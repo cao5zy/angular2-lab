@@ -8,6 +8,9 @@
 export class BootstrapPopoverComponent implements OnInit {
 
 	ngOnInit(){
-		$('#popover1').popover();
+		$('#popover1').popover({
+			html:true
+			,content:"line1<br/>line2"
+		});
 	}
 }
