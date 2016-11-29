@@ -1,4 +1,20 @@
-﻿import { Directive, ElementRef, OnInit } from '@angular/core';
+﻿/*
+作者：Cao, Zongying
+
+使用方法：
+<button lab-bootstrap-popover id="popOver1" contentid="content1">弹出框1</button>
+<button (click)="setContent1_1()">content1_1</button>
+<button (click)="setContent1_2()">content1_2</button>
+<div id="content1" style="display: none">
+{{content1}}
+</div>
+1. 为元素添加lab-bootstrap-popover属性
+2. 必须定义元素的id
+3. 必须定义元素的contentid，contentid用于映射到要在popover中显示内容。
+4. 定义content区域，这里可以动态绑定数据。另外，要添加display:none，将这个区域隐藏起来。
+*/
+
+import { Directive, ElementRef, OnInit } from '@angular/core';
 
 @Directive({
 	selector: '[lab-bootstrap-popover]'
@@ -26,13 +42,7 @@ export class BootstrapPopoverDirective implements OnInit {
 		if(!this._contentid)
 			throw "请设置contentid";
 
-		this.hideContent();
 
-	}
-
-	hideContent(){
-		console.log('hideContent called', '#' + this._contentid);
-		$('#' + this._contentid).css({display:'none'});
 	}
 
 	ngOnInit(){
