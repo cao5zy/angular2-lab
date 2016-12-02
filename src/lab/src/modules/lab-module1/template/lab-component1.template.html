@@ -26,9 +26,13 @@
 <button (click)="openPopup()">打开弹出框</button>
 <fc-popup #myPopup>
 	<p>弹出框内容</p>
+	<button (click)="openOtherPoup()">弹出新的框</button>
+</fc-popup>
+<fc-popup #otherPopup>
+	<p>其它弹出内容</p>
 </fc-popup>
 
-<button (click)="openPopup1()">打开弹出框</button>
+<button (click)="openPopup1()">打开弹出框1</button>
 <fc-popup #myPopup1>
 	<p>弹出框内容1</p>
 </fc-popup>

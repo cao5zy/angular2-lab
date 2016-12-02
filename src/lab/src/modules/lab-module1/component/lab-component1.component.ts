@@ -19,6 +19,8 @@ export class LabComponent1Component implements OnInit{
 	private myPopup:PopupComponent;
 	@ViewChild('myPopup1')
 	private myPopup1:PopupComponent;
+	@ViewChild('otherPopup')
+	private otherPopup:PopupComponent;
 
 	ngOnInit(){
 
@@ -51,5 +53,8 @@ export class LabComponent1Component implements OnInit{
 
 	openPopup1(){
 		this.myPopup1.open();
+	}
+	openOtherPoup(){
+		this.otherPopup.open();
 	}
 }
