@@ -1,8 +1,8 @@
-import { Component, ViewChild, EventEmitter, Input, Output, OnInit } from "@angular/core";
+import { Component, ViewChild, EventEmitter, Input, Output, Renderer, ElementRef } from "@angular/core";
 
 @Component({
 	selector: 'fc-popup'
-	,template:`<div class="modal fade" id="dialog1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	,template:`<div class="modal fade" #popupCmp tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		  	<div class="modal-dialog" role="document" style="width:80%!important;">
 				<div class="modal-content">
 					<!--header-->
@@ -40,7 +40,13 @@ export class PopupComponent {
     private cf = new EventEmitter<any>();//取消处理
     @Output()
     private of = new EventEmitter<any>();//确认处理
+    @ViewChild('popupCmp')
+    private popupCmp:ElementRef;
 
+    constructor(element:ElementRef, renderer: Renderer)
+    {
+    	console.log('render', renderer, 'element', element);
+    }
     private cancel(){
     	this.cf.emit();
     }
@@ -52,10 +58,10 @@ export class PopupComponent {
     open(title?:string)
     {
     	title && (this.title = title);
-    	$("#dialog1").modal('show');
+    	$(this.popupCmp.nativeElement).modal('show');
     }
 
     close(){
-    	$('#dialog1').modal('hide');
+    	$(this.popupCmp.nativeElement).modal('hide');
     }
 }
