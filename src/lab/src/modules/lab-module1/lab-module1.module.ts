@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // pf_conn_mng
 import { LabComponent1Component
-    , BootstrapPopoverDirective } from './component';
+    , BootstrapPopoverDirective
+    , PopupComponent } from './component';
 import { LabModule1Routing } from './lab-module1.routing';
 
 @NgModule({
@@ -14,10 +15,12 @@ import { LabModule1Routing } from './lab-module1.routing';
     declarations: [
     	LabComponent1Component
         , BootstrapPopoverDirective
+        , PopupComponent
     ],
     exports: [
         LabComponent1Component
         , BootstrapPopoverDirective
+        , PopupComponent
     ],
     providers: []
 })

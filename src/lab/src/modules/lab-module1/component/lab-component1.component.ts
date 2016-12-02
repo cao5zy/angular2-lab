@@ -1,6 +1,7 @@
-﻿import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { BootstrapPopoverDirective } from './';
+import { BootstrapPopoverDirective
+	, PopupComponent} from './';
 
 
 @Component({
@@ -13,6 +14,9 @@ export class LabComponent1Component implements OnInit{
 	private content1: string = "none1";
 	private content2: string = "none2";
 	private nums:Array<number> = [1,2,3];
+
+	@ViewChild('myPopup')
+	private myPopup:PopupComponent;
 
 	ngOnInit(){
 
@@ -37,5 +41,9 @@ export class LabComponent1Component implements OnInit{
 	contentIdgnerator(num:number):string
 	{
 		return `content-${num}`;
+	}
+
+	openPopup(){
+		this.myPopup.open();
 	}
 }
